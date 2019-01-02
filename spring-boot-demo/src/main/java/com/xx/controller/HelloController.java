@@ -5,10 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HelloController {
-	
+	/**
+	 * 测试
+	 * @return
+	 */
 	@RequestMapping("/hello")
 	public String hello(){
 		
-		return "��ã�my name is springboot";
+		return "你好 ！my name is springboot";
 	}
 }
